@@ -23,5 +23,6 @@ set laststatus=2                    " Always show the statusline
 set noshowmode                      " Hide the default mode text (e.g. -- INSERT -- below the statusline)
 
 " let g:Powerline_symbols = 'fancy'
+let g:neocomplcache_enable_at_startup = 1
 
 nmap <C-b> :NERDTreeToggle<cr>
