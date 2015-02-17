@@ -9,8 +9,9 @@ set number                          " always show line numbers
 set background=dark
 colorscheme solarized
 set expandtab
-set tabstop=2                       " a tab is four spaces
+set tabstop=2                       " a tab is two spaces
 set shiftwidth=2                    " number of spaces to use for autoindenting
+set smartindent
 set autoindent                      " always set autoindenting on
 set copyindent                      " copy the previous indentation on autoindenting
 set visualbell                      " don't beep
