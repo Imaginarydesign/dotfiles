@@ -18,6 +18,7 @@ alias server="open http://localhost:8000 && python -m SimpleHTTPServer"
 alias work="cd Work/Current\ projects/"
 alias gcam="git commit -am"
 alias hosts="sudo vim /etc/hosts"
+alias code="cd ~/Code"
 
 # Set to this to use case-sensitive completion
 # CASE_SENSITIVE="true"
