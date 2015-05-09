@@ -45,7 +45,8 @@ source $ZSH/oh-my-zsh.sh
 # Customize to your needs...
 export MAMP_PHP=/Applications/MAMP/bin/php/php5.4.19/bin
 
-export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
+# export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 
-export PATH=$MAMP_PHP:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin
+export PATH=/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin
 
+if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
