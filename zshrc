@@ -50,3 +50,6 @@ export MAMP_PHP=/Applications/MAMP/bin/php/php5.4.19/bin
 export PATH=/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin
 
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
+export PATH="/usr/local/bin:$PATH"
+# Line below added when upgrading php version
+export PATH=/usr/local/php5/bin:$PATH
