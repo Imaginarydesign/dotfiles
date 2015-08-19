@@ -12,13 +12,18 @@ ZSH_THEME="remy"
 alias htdocs="cd /Applications/MAMP/htdocs"
 alias drop="cd ~/Dropbox"
 alias desktop="cd ~/Desktop"
-alias clients="cd ~/Dropbox\ \(Bright\ Red\)/Clients\ Active"
 alias tree="find . -print | sed -e 's;[^/]*/;|____;g;s;____|; |;g'"
 alias server="open http://localhost:8000 && python -m SimpleHTTPServer"
-alias work="cd Work/Current\ projects/"
 alias gcam="git commit -am"
 alias hosts="sudo vim /etc/hosts"
 alias code="cd ~/Code"
+alias phpcs="~/.composer/vendor/bin/phpcs"
+alias phpcbf="~/.composer/vendor/bin/phpcbf"
+alias phpmd="~/.composer/vendor/bin/phpmd"
+alias lumen="~/.composer/vendor/bin/lumen"
+alias laravel="~/.composer/vendor/bin/laravel"
+alias zshrc='vim ~/.zshrc' # Quick access to the ~/.zshrc file
+alias serv1="ssh serv1co@serv1.co.uk"
 
 # Set to this to use case-sensitive completion
 # CASE_SENSITIVE="true"
@@ -53,3 +58,4 @@ if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 export PATH="/usr/local/bin:$PATH"
 # Line below added when upgrading php version
 export PATH=/usr/local/php5/bin:$PATH
+export PATH="$PATH:~/.composer/vendor/bin"
